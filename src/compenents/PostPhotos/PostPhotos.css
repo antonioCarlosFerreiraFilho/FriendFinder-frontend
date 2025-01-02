@@ -1,0 +1,366 @@
+@media screen and (min-width: 358px) {
+
+  .PostPhotos {
+    width: 100%;
+  }
+
+  .PostPhotos-container {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 2rem;
+  }
+
+  /*-- STYLE Intro --*/
+
+  .PostPhotos-container-Title {
+
+    margin-bottom: 2rem;
+  }
+
+  .PostPhotos-container-Title h1 {
+
+    color: rgb(101, 168, 228);
+
+    font-size: 1.3rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .PostPhotos-container-Title strong {
+
+    color: orange;
+
+    font-size: 1.4rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .PostPhotos-container-form {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+  }
+
+  /*--MESSAGE ERROR--*/
+
+  .PostPhotos-container-MessageError {
+
+    background-color: red;
+
+    width: 300px;
+    height: 50px;
+
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .PostPhotos-container-MessageError-container {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PostPhotos-form {
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: .5rem;
+    box-sizing: border-box;
+  }
+
+  /*-- STYLE TITLE --*/
+
+  .PostPhotos-form-box-title {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PostPhotos-form-box-title label {
+
+    width: 100%;
+
+    font-size: 1.1rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-bottom: .2rem;
+  }
+
+  .PostPhotos-form-box-title input {
+
+    color: rgb(37, 36, 36);
+
+    width: 300px;
+    height: 30px;
+
+    font-size: 1.2rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    padding-left: .4rem;
+
+    border: solid 2px rgb(208, 208, 208);
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  .PostPhotos-form-box-title input::placeholder {
+
+    color: rgb(122, 118, 118);
+
+    font-size: .9rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    padding-left: .1rem;
+  }
+
+  /*-- STYLE FILE --*/
+
+  .PostPhotos-form-box-File {
+
+    width: 100%;
+
+    margin-top: 2rem;
+
+    position: relative;
+  }
+
+  .PostPhotos-form-box-File-container {
+
+    background-color: rgb(151, 146, 146);
+
+    width: 300px;
+    height: 250px;
+  }
+
+  .PostPhotos-form-box-File-container img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .PostPhotos-form-box-File-Input {
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .PostPhotos-form-box-File-Input label {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PostPhotos-form-box-File-Input label p {
+
+    color: blue;
+
+    font-size: 1.1rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .PostPhotos-form-box-File-Input-icon {
+
+    color: blue;
+
+    font-size: 2.7rem;
+    cursor: pointer;
+  }
+
+  .PostPhotos-form-box-File-Input input {
+
+    display: none;
+  }
+
+  /*-- Box Description --*/
+
+  .PostPhotos-form-box-description {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1.5rem;
+  }
+
+  .PostPhotos-form-box-description textarea {
+
+    width: 300px;
+    height: 100px;
+
+    border: 1px solid rgb(135, 130, 130);
+    border-radius: 5px;
+    outline: none;
+
+    padding: .4rem;
+
+    color: black;
+    font-size: .8rem;
+    line-height: 20px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    box-sizing: border-box;
+  }
+
+  .PostPhotos-form-box-description textarea::placeholder {
+
+    color: rgb(163, 163, 164);
+
+    font-size: 1rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  /*-- Submit --*/
+
+  .PostPhotos-form-box-File-InputSubmit {
+
+    width: 100%;
+  }
+
+  .PostPhotos-form-box-File-InputSubmit input {
+
+    background-color: blue;
+    color: white;
+
+    width: 300px;
+    height: 35px;
+
+    font-size: 1.1rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    border: none;
+    outline: none;
+
+    margin-top: 1.3rem;
+
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  /* style title */
+
+  .PostPhotos-form-box-title label {
+
+    width: 100%;
+
+    font-size: 1.1rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-bottom: .2rem;
+  }
+
+  .PostPhotos-form-box-title input {
+
+    width: 400px;
+    height: 35px;
+  }
+
+  /* style container */
+
+  .PostPhotos-form-box-File-container {
+
+    width: 400px;
+    height: 450px;
+  }
+
+  /* input textarea */
+
+  .PostPhotos-form-box-description {
+
+    margin-bottom: .50rem;
+  }
+
+  .PostPhotos-form-box-description textarea {
+
+    width: 400px;
+  }
+
+  /* style submit */
+
+  .PostPhotos-form-box-File-InputSubmit input {
+
+    width: 400px;
+    height: 45px;
+
+    border-radius: 10px;
+  }
+
+
+}
+
+@media screen and (min-width: 995px) {
+
+  .PostPhotos {
+    width: 100%;
+  }
+
+  .PostPhotos-container {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -5rem;
+  }
+
+}

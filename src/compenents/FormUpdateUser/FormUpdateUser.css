@@ -1,0 +1,537 @@
+@media screen and (min-width: 358px) {
+
+  .Profile {
+
+  }
+
+  .Profile_edit-content {
+
+
+    margin-top: 2rem;
+  }
+
+  .Profile_edit-content-form {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Profile_edit-content-form-content {
+
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+  }
+
+  /* STYLE MESSAGE ERROR */
+
+  .Profile_edit-content-form-content-MessageError {
+
+    background-color: red;
+
+    width: 95%;
+    max-width: 455px;
+    height: 55px;
+
+    position: absolute;
+    top: 250px;
+    left: 50%;
+
+    z-index: 1000;
+    
+    transform: translate(-50%);
+  }
+
+  .Profile_edit-content-form-content-MessageError-Container {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+
+  .Profile_edit-content-form-content-edit {
+
+    width: 100%;
+    height: 0px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  /*------------ STYLE PROFILE ---------------*/
+
+  .Profile-name-banner {
+
+  }
+
+  .Profile_content {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Profile_ImageUser {
+
+    background-image: url("../../../public/ImageDefault/vecteezy_man_1206101.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    border: 2px solid  rgb(101, 168, 228);
+    
+    overflow: hidden;
+  }
+
+  .Profile_ImageUser img {
+
+    width: 100%;
+    height: 100%;
+  }
+
+ 
+
+  /*---------------------------*/
+
+  .Profile-box-upload-image {
+
+
+  }
+
+  .Profile-boxInputFile {
+
+   
+  }
+  
+  .Profile-boxInputFile label {
+  
+
+  }
+
+  .Profile-boxInputFile-icon-update {
+
+    color: blueviolet;
+    
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding-top: 1rem;
+  }
+  
+  .Profile-InputFile {
+  
+    display: none;
+  }
+
+   /*---------------------------*/
+
+  .Profile_infos-content {
+
+    padding: 0 0 0 0;
+  }
+
+  .Profile_infos-content-nameUser h1 {
+
+    color: blueviolet;
+
+    font-size: 1.3rem;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 0rem;
+  }
+
+  /*-------- STYLE rulles --------*/
+
+  .Profile-content-width-max {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Profile-rulles {
+
+    width: 100%;
+
+    padding-bottom: 2rem;
+  }
+
+  .Profile_edit-content-title {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Profile_edit-content-title h1 {
+
+    color: black;
+
+    font-size: 1.4rem;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .Profile_edit-content-title-icon {
+
+    color: blueviolet;
+
+    font-size: 1.4rem;
+
+    margin-right: 10px;
+  }
+
+  .Profile_edit-content-rules {
+
+    width: 100%;
+
+    padding: .5rem;
+    box-sizing: border-box;
+  }
+
+  .Profile_edit-content-rules-box {
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .Profile_edit-content-rules-box strong {
+
+    color: blueviolet;
+  }
+
+  .Profile_edit-content-rules-box p {
+
+ 
+    font-size: 1.2rem;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0;
+  }
+
+
+  /*---------STYLE INPUTS----------*/
+
+  .Profile-inputs {
+
+    width: 90%;
+  }
+
+  .Profile_edit-content-form-box-InfoUserBox {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Profile_edit-content-form-box-InfoUser {
+
+    width: 49%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Profile_edit-content-form-box-InfoUser p {
+
+    color: black;
+
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 1rem 0 .5rem 0;
+  }
+
+  .Profile_edit-content-form-box-InfoUser input {
+
+    width: 100%;
+    height: 30px;
+
+    outline: none;
+    padding: .4rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(219, 212, 212);
+
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+
+  .Profile_edit-content-form-box-InfoUser input::placeholder {
+
+    color: black;
+
+    font-size: 1rem;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /*-- Email --*/
+
+  .Profile_edit-content-form-box-InfoUserBoxEmail {
+
+    width: 100%;
+  }
+
+  .Profile_edit-content-form-box-InfoUserEmail {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Profile_edit-content-form-box-InfoUserEmail p {
+
+    color: black;
+
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 1rem 0 .5rem 0;
+  }
+
+  .Profile_edit-content-form-box-InfoUserEmail input {
+
+    width: 100%;
+    height: 30px;
+
+    outline: none;
+    padding: .4rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(219, 212, 212);
+
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+
+  /*- PASSWORD -*/
+
+  .Profile_edit-content-form-box-InfoUserBoxPassword {
+
+    width: 100%;
+  }
+
+  .Profile_edit-content-form-box-InfoUserBoxPassword {
+
+    width: 100%;
+  }
+
+  .Profile_edit-content-form-box-InfoUserPassword p {
+
+    color: black;
+
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 1rem 0 .5rem 0;
+  }
+
+  .Profile_edit-content-form-box-InfoUserPassword input {
+
+    width: 100%;
+    height: 30px;
+
+    outline: none;
+    padding: .4rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(219, 212, 212);
+
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+
+
+  /*- CITY -*/
+
+  .Profile_edit-content-form-box-InfoUserBoxCITY {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Profile_edit-content-form-box-InfoUserCITY {
+
+    width: 49%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Profile_edit-content-form-box-InfoUserCITY p {
+
+    color: black;
+
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 1rem 0 .5rem 0;
+  }
+
+  .Profile_edit-content-form-box-InfoUserCITY input {
+
+    width: 100%;
+    height: 30px;
+
+    outline: none;
+    padding: .4rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(219, 212, 212);
+
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+
+  .Profile_edit-content-form-box-InfoUserCITY input::placeholder {
+
+    color: black;
+
+    font-size: 1rem;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+
+
+  .Profile_edit-content-form-box-submit {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Profile_edit-content-form-box-submit-content {
+
+    width: 90%;
+    padding: 2rem 0 2rem 0;
+  }
+
+  .Profile_edit-content-form-box-submit-content input {
+
+    background-color: blueviolet;
+    color: white;
+
+    font-size: 1.1rem;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    width: 100%;
+    height: 40px;
+
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+    padding: .5rem 0 .5rem 0;
+    box-sizing: border-box;
+
+    cursor: pointer;
+  }
+
+  .Profile_edit-MessageError {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 2rem;
+  }
+
+  .Profile_edit-MessageError-box {
+
+    width: 95%;
+    max-width: 500px;
+    height: 50px;
+
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .Profile_edit-content-rules {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Profile_edit-content-rules-box {
+
+    max-width: 500px;
+  }
+
+  .Profile_edit-content-rules-box p {
+
+    text-align: center;
+  }
+
+  .Profile_edit-content-form {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 1rem;
+  }
+
+  .Profile-content-width-max  {
+
+    max-width: 500px;
+  }
+}
+
+@media screen and (min-width: 995px) {
+  
+  .Profile_edit-content {
+
+    margin-top: -2rem;
+  }
+}

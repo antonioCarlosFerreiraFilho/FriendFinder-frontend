@@ -1,0 +1,310 @@
+@media screen and (min-width: 358px)  {
+
+  .PostPhoto {
+
+    display: none;
+  }
+
+  .PostPhoto-content-form-box-Upload-labelIcon {
+
+
+  }
+}
+
+
+@media screen and (min-width: 980px) {
+ 
+  .PostPhoto {
+
+    display: block;
+  }
+
+  .PostPhoto-container {
+
+    width: 100%;
+
+    margin-top: 6rem;
+  }
+
+  .PostPhoto-content {
+
+    width: 100%;
+
+    position: relative;
+  }
+
+  /*-- Style Title slogan --*/
+
+  .PostPhoto-content-TitleSlogan {
+
+    width: 100%;
+  }
+
+  .PostPhoto-content-TitleSlogan-box {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .PostPhoto-content-TitleSlogan-box h1 {
+
+    color:  rgb(101, 168, 228);
+
+    font-size: 1.3rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0;
+  }
+
+  .PostPhoto-content-TitleSlogan-box strong {
+
+    color: orange;
+
+    font-size: 1.3rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /*-- Style Form --*/
+
+  .PostPhoto-content-form {
+    width: 100%;
+  }
+
+  .PostPhoto-content-form-box {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .PostPhoto-content-form-box-inputs {
+
+    width: 300px;
+    height: 140px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .PostPhoto-content-form-box-title {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .PostPhoto-content-form-box-title input {
+
+    width: 100%;
+    height: 25px;
+
+    color: black;
+
+    font-size: 1rem;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 0;
+    margin: 0 0 .2rem 0;
+
+    border: 1px solid black;
+    outline: none;
+    border-radius: 3px;
+    padding-left: .4rem;
+    box-sizing: border-box;
+  }
+
+  .PostPhoto-content-form-box-title input::placeholder {
+
+    color: rgb(129, 125, 125);
+
+    font-size: .9rem;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .PostPhoto-content-form-box-description {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .PostPhoto-content-form-box-description textarea {
+
+    width: 100%;
+    height: 70px;
+
+    color: black;
+
+    font-size: 1rem;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: .4rem;
+    margin: 0;
+
+    border: 1px solid black;
+    outline: none;
+    border-radius: 3px;
+
+    box-sizing: border-box;
+  }
+
+  .PostPhoto-content-form-box-description textarea::placeholder {
+
+    color: rgb(129, 125, 125);
+
+    font-size: .9rem;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    box-sizing: border-box;
+  }
+
+  /*-- Style Submit Upload --*/
+
+  .PostPhoto-content-form-box-UploadSubmit {
+
+    width: 200px;
+    height: 140px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .PostPhoto-content-form-box-Upload label{
+
+    display: flex;
+    align-items: center;
+  }
+
+  .PostPhoto-content-form-box-Upload label p{
+
+    color: rgb(129, 125, 125);
+
+    font-size: .9rem;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: .5rem 0 0 .5rem;
+  }
+
+  .PostPhoto-content-form-box-Upload-labelIcon {
+
+    color: blue;
+    font-size: 1.6rem;
+  }
+
+  /*-- --------------------------------------------- --*/
+
+  #PostPhoto-content-form-box-Upload-labelIcon-ImageEmpty {
+
+    display: none;
+  }
+
+  #PostPhoto-content-form-box-Upload-labelIcon-ImageEmpty-icon {
+
+    color: blue;
+
+    font-size: 1.3rem;
+  }
+  
+  #PostPhoto-content-form-box-Upload-labelIcon-ImageEmpty-icon {
+
+    display: none;
+  }
+
+  .PostPhoto-content-form-box-Upload input{
+
+    display: none;
+  }
+
+  .PostPhoto-content-form-box-Submit input{
+
+    background-color: #149AC9;
+    color: white;
+
+    font-size: 1rem;
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+
+    cursor: pointer;
+
+    width: 150px;
+    height: 35px;
+
+    border-radius: 20px;
+    border: none;
+  }
+
+  /*-- Style Image User --*/
+
+  .PostPhoto-content-form-box-ImageUser {
+
+    width: 150px;
+    height: 130px;
+  }
+
+  .PostPhoto-content-form-box-ImageUser-box {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PostPhoto-content-form-box-ImageUser-box img {
+
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  /*-- Message Error --*/
+
+  .PostPhoto-content-MessageError {
+
+    background-color: red;
+
+    width: 300px;
+    height: 55px;
+
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+
+    border-radius: 10px;
+  }
+
+  .PostPhoto-content-MessageError-container {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

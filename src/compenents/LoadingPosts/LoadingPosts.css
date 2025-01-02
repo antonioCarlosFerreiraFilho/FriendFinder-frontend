@@ -1,0 +1,45 @@
+@media screen and (min-width: 358px) {
+
+  .LoadingPosts {
+
+
+  }
+
+  .LoadingPosts_container {
+
+    width: 100%;
+    height: 100%;
+    padding: .5rem;
+    box-sizing: border-box;
+  }
+
+  .LoadingPosts_content {
+
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .LoadingPosts_loading {
+
+    width: 20%;
+    max-width: 90px;
+  }
+}
+
+@media screen and (min-width: 1500px)  {
+
+  .LoadingPosts_container {
+    width: 975px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+
+  .LoadingPosts_container {
+    width: 1385px;
+  }
+}

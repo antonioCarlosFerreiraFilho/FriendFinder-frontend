@@ -1,0 +1,616 @@
+@media screen and (min-width: 358px) {
+
+  .Post {}
+
+  .Post-container {
+
+    width: 100%;
+
+    margin-top: 4rem;
+  }
+
+  .Post-content {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 .2rem 0 .2rem;
+    box-sizing: border-box;
+  }
+
+  /*-- Box Article --*/
+
+  .Post-box {
+
+    width: 100%;
+  }
+
+  /*-- Box Image --*/
+
+  .Post-box-imagePost {
+
+    width: 100%;
+    height: 300px;
+  }
+
+  .Post-box-imagePost img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  /*-- Box Info User Likes --*/
+
+  .Post-box-InfoUser-Likebox {
+
+    width: 100%;
+
+    padding: .5rem;
+    box-sizing: border-box;
+  }
+
+  .Post-box-UserInfo {
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .Post-box-UserInfo-ImageUser {
+
+    width: 50px;
+    height: 50px;
+
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .Post-box-UserInfo-ImageUser img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  /*-- Box InfoUser --*/
+
+  .Post-box-UserInfo-infoUser {
+
+    margin-left: 20px;
+  }
+
+  .Post-box-UserInfo-infoUser h1 {
+
+    color: blue;
+
+    font-size: 1.2rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+
+  .Post-box-UserInfo-infoUser p {
+
+    color: rgb(153, 149, 149);
+
+    font-size: .9rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+
+  /*-- Box Likes --*/
+
+  .Post-box-UserInfo-Likes {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: end;
+  }
+
+  .Post-box-UserInfo-Likes-box {
+
+    width: 80%;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 1rem 0 .5rem 0;
+
+    border-bottom: 1px solid rgb(212, 207, 207);
+  }
+
+  .Post-box-UserInfo-Likes-box-Like {
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .Post-box-UserInfo-Likes-box-Like p {
+
+    color: black;
+
+    font-size: 1rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+
+  /*-- Box DesLike --*/
+
+  .Post-box-UserInfo-Likes-box-DesLike {
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .Post-box-UserInfo-Likes-box-DesLike p {
+
+    color: black;
+
+    font-size: 1rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+
+  .Post-box-UserInfo-Likes-box-Like-icon {
+
+    color: rgb(171, 171, 180);
+
+    font-size: 1.1rem;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .Post-box-UserInfo-Likes-box-Like-iconNegative {
+
+    color: rgb(171, 171, 180);
+
+    font-size: 1.1rem;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .LikeActive {
+
+    color: blue;
+  }
+
+  /*-- box Description Post --*/
+
+  .Post-box-InfoUser-DescriptionPost {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: end;
+  }
+
+  .Post-box-InfoUser-DescriptionPost-box {
+
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  .Post-box-InfoUser-DescriptionPost-box p {
+
+    color: rgb(107, 102, 102);
+
+    font-size: 1rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+
+  /*-- Container Comments --*/
+
+  .Post-container-comments {
+
+    margin-top: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Post-container-comments-box {
+
+    width: 100%;
+    max-width: 700px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 .4rem 0 .4rem;
+
+    box-sizing: border-box;
+  }
+
+  .Post-container-comments-box-formUser {
+
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 1rem;
+
+    position: relative;
+  }
+
+  .Post-container-comments-box-formUser-UserImage {}
+
+  .Post-container-comments-box-formUser-UserImage-box {
+
+    width: 50px;
+    height: 50px;
+
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .Post-container-comments-box-formUser-UserImage-box img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  /*-- Form Style comments --*/
+
+  .Post-container-comments-box-formUser-UserImage-Form {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Post-container-comments-box-formUser-UserImage-Form-box {
+
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .Post-container-comments-box-formUser-UserImage-Form-box label {
+
+    color: rgb(61, 61, 195);
+
+    font-size: 1.1rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0;
+  }
+
+  .Post-container-comments-box-formUser-UserImage-Form-box textarea {
+
+    width: 100%;
+    height: 100px;
+
+    color: black;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+
+    border: 1px solid orange;
+    padding: .5rem;
+    box-sizing: border-box;
+  }
+
+  .Post-container-comments-box-formUser-UserImage-Form-box-submit {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Post-container-comments-box-formUser-UserImage-Form-box-submit input {
+
+    color: white;
+    background-color: rgb(90, 90, 225);
+
+    width: 90%;
+    height: 25px;
+
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: .50rem;
+
+    border: none;
+    border-radius: 5px;
+  }
+
+  .Post-container-comments-box-MessageError {
+
+    background-color: red;
+
+    width: 95%;
+    height: 40px;
+
+    position: absolute;
+    bottom: -25px;
+
+    transform: translate(-1%, -40%);
+  }
+
+  .Post-container-comments-box-MessageError-container {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  /*-- comments Array --*/
+
+  .Post-container-comments-box-commentsArray {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .Post-container-comments-box-commentsArray-box {
+
+    width: 100%;
+
+    overflow: hidden;
+    margin-top: 2rem;
+  }
+
+  .Post-container-comments-box-commentsArray-boxImageNameUser {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: start;
+  }
+
+  .Post-container-comments-box-commentsArray-box-ImageUser {
+
+    width: 50px;
+    height: 50px;
+
+    overflow: hidden;
+    border-radius: 50%;
+
+    margin-right: 10px;
+  }
+
+  .Post-container-comments-box-commentsArray-box-ImageUser img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .Post-container-comments-box-commentsArray-box-ImageUser-boxName h1 {
+
+    color: blue;
+
+    font-size: 1.1rem;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0;
+  }
+
+  .Post-container-comments-box-commentsArray-box-ImageUser-boxName p {
+
+    color: black;
+
+    font-size: .9rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 5px 0 0 0;
+  }
+
+  /*-- comment User Style --*/
+
+  .Post-container-comments-box-commentsArray-box-comment {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: end;
+  }
+
+  .Post-container-comments-box-commentsArray-box-comment-box {
+
+    width: 90%;
+
+    border-bottom: 1px solid rgb(130, 127, 127);
+  }
+
+  .Post-container-comments-box-commentsArray-box-comment-box p {
+
+    color: rgb(50, 48, 48);
+
+    font-size: 1rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  /*-- Box Image --*/
+
+  .Post-box-imagePost {
+
+    width: 100%;
+    height: 400px;
+  }
+
+  /*-- Box Likes --*/
+
+  .Post-box-UserInfo-Likes-box {
+
+    max-width: 300px;
+  }
+
+  /*-- box Description Post --*/
+
+  .Post-box-InfoUser-DescriptionPost-box {
+
+    width: 90%;
+    max-width: 500px;
+  }
+
+  /* STYLE MESSAGE ERROR */
+
+  .Post-container-comments-box-MessageError {
+
+    max-width: 520px;
+
+    position: absolute;
+    bottom: -25px;
+
+    transform: translate(5%, -30%);
+  }
+}
+
+@media screen and (min-width: 700px) {
+
+  /*-- Box Post --*/
+  .Post-content {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 .2rem 0 .2rem;
+    box-sizing: border-box;
+  }
+
+  /*-- Box Article --*/
+
+  .Post-box {
+
+    max-width: 700px;
+  }
+
+  /*-- Box Info User Likes --*/
+
+  .Post-box-InfoUser-Likebox {
+
+    width: 100%;
+
+    display: flex;
+
+  }
+
+  .Post-box-UserInfo {
+
+    width: 50%;
+  }
+
+  /*-- Box Likes --*/
+
+  .Post-box-UserInfo-Likes {
+
+    width: 50%;
+  }
+
+  /*-- box Description Post --*/
+
+  .Post-box-InfoUser-DescriptionPost {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Post-box-InfoUser-DescriptionPost-box {
+
+    max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+
+  .Post-content {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 .2rem 0 .2rem;
+    box-sizing: border-box;
+  }
+
+  /*-- Box Article --*/
+
+  .Post-box {
+
+    max-width: 850px;
+  }
+
+  /*-- Box Image --*/
+
+  .Post-box-imagePost {
+
+    width: 100%;
+    height: 500px;
+  }
+
+  /*-- Box Info User Likes --*/
+
+  .Post-box-InfoUser-Likebox {
+
+    width: 100%;
+
+    padding: 2rem .5rem .5rem .5rem;
+    box-sizing: border-box;
+  }
+}

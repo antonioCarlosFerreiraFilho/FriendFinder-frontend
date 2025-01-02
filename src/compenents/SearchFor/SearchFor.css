@@ -1,0 +1,151 @@
+@media screen and (min-width: 358px) {
+
+  .SearchFor_container {}
+
+  .SearchFor_content {}
+
+  /* STYLE SEARCH */
+
+  .SearchFor_dataFor {
+
+    width: 100%;
+
+    text-align: center;
+  }
+
+  .SearchFor_dataFor p {
+
+    color: black;
+
+    font-size: 1.1rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .SearchFor_dataFor strong {
+
+    color: rgb(209, 147, 32);
+
+    font-size: 1rem;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* STYLE CARDS */
+
+  .SearchFor_Cards {
+    width: 100%;
+
+    padding: 0 .5rem 0 .5rem;
+    box-sizing: border-box;
+  }
+
+  .SearchFor_Cards-container {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .SearchFor_Cards-content {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+  }
+
+  .SearchFor_box {
+
+    background-color: rgb(255, 252, 252);
+    width: 100%;
+    max-width: 330px;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    padding: .2rem .2rem .5rem .2rem;
+    box-sizing: border-box;
+
+    border-radius: 10px 10px 0 0;
+
+    margin-bottom: 1rem;
+
+    text-decoration: none;
+  }
+
+  .SearchFor_box-image {
+
+    border-radius: 10px 10px 5px 5px;
+    width: 100%;
+    height: 250px;
+
+    overflow: hidden;
+  }
+
+  .SearchFor_box-image img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .SearchFor_box-Title {
+
+    background-color: white;
+
+    width: 100%;
+    height: 35px;
+  }
+
+  .SearchFor_box-Title p {
+
+    color: rgb(140, 99, 49);
+
+    font-size: 1rem;
+    margin: 0;
+
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .SearchFor_box-Title h1 {
+    color: blueviolet;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 980px) {
+
+  /* STYLE SEARCH */
+
+  .SearchFor_dataFor p {
+
+    font-size: 1.3rem;
+    text-decoration: underline rgb(241, 227, 201);
+  }
+
+  .SearchFor_dataFor strong {
+
+    font-size: 1.2rem;
+  }
+
+}

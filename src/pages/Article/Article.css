@@ -1,0 +1,90 @@
+@media screen and (min-width: 358px) {
+
+  .Article_cardNavBarAuth-Posts {
+
+    width: 100%;
+  }
+
+  .Article_cardNavBarAuth {
+
+    display: none;
+  }
+
+  .Article_Posts-PostPhoto-UsersRecent {
+
+    width: 100%;
+  }
+
+  .Article_UsersRecent {
+
+    display: none;
+  }
+}
+
+@media screen and (min-width: 980px) {
+
+
+  .Article_cardNavBarAuth-Posts {
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Article_cardNavBarAuth {
+
+    display: block;
+    width: 30%;
+  }
+
+  .Article_Posts-PostPhoto-UsersRecent {
+
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .Article_cardNavBarAuth {
+
+    width: 30%;
+  }
+
+  .Article_Posts-PostPhoto-UsersRecent {
+
+    width: 50%;
+  }
+
+  .Article_UsersRecent {
+
+    display: block;
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+
+  .Article_cardNavBarAuth {
+
+    width: 25%;
+  }
+
+  .Article_Posts-PostPhoto-UsersRecent {
+
+    width: 55%;
+  }
+
+  .Article_UsersRecent {
+
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 1600px)  {
+
+  .Article {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

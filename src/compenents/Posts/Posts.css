@@ -1,0 +1,265 @@
+@media screen and (min-width: 358px) {
+
+  .Posts {}
+
+  .Posts-container {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Posts-content {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem .5rem 0 .5rem;
+
+    box-sizing: border-box;
+  }
+
+  /*-- Card Post --*/
+
+  .Posts-content-card-Link {
+
+    background-color: rgb(249, 247, 247);
+    width: 100%;
+    max-width: 720px;
+    text-decoration: none;
+
+    margin-bottom: 1.5rem;
+  }
+
+  .Posts-content-card-Link:hover .Posts-content-card-image img {
+    transition: all ease-in-out 1s;
+    scale: 1.1;
+  }
+
+  .Posts-content-card {}
+
+  .Posts-content-card-image {
+
+    width: 100%;
+    height: 300px;
+
+    overflow: hidden;
+  }
+
+  .Posts-content-card-image img {
+
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out 1s;
+    object-fit: cover;
+  }
+
+  /*-- Info User Post --*/
+
+  .Posts-content-card-infoUser {
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    box-sizing: border-box;
+  }
+
+  .Posts-content-card-infoUser-ImageUser {
+
+    width: 55px;
+    height: 55px;
+
+    border: 2px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+
+  }
+
+  .Posts-content-card-infoUser-ImageUser img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .Posts-content-card-infoUser-infoPostUser {
+
+    margin-left: 10px;
+  }
+
+  .Posts-content-card-infoUser-infoPostUser h1 {
+
+    color: rgb(85, 85, 196);
+
+    font-size: 1.1rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0;
+  }
+
+  .Posts-content-card-infoUser-infoPostUser p {
+
+    color: black;
+
+    font-size: .7rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0;
+  }
+
+  /*-- Box Likes --*/
+
+  .Posts-content-card-Likes {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: end;
+  }
+
+  .Posts-content-card-Likes-box {
+
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: .5rem;
+    border-bottom: 1px solid rgb(214, 209, 209);
+  }
+
+  .Posts-content-card-Likes-boxLike {
+
+    display: flex;
+    align-items: center;
+
+    margin: 0 10px 0 10px;
+  }
+
+  .Posts-content-card-Likes-boxLike-icon {
+
+    color: blue;
+
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .Posts-content-card-Likes-boxLike p {
+
+    color: black;
+
+    font-size: 1rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0 0 0 4px;
+  }
+
+  /*-- Description Post --*/
+
+  .Posts-content-card-descriptionPost {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: end;
+  }
+
+  .Posts-content-card-descriptionPost-box {
+
+    width: 95%;
+  }
+
+  .Posts-content-card-descriptionPost-box p {
+
+    color: black;
+
+    font-size: .9rem;
+    font-family: "Noto Sans Tai Viet", sans-serif;
+    font-weight: 400;
+    line-height: 23px;
+    font-style: normal;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  /*-- image post --*/
+  .Posts-content-card-image {
+
+    width: 100%;
+    height: 400px;
+
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 700px) {
+
+  /*-- info user --*/
+
+  .Posts-content-card-infoUserLikes {
+
+    display: flex;
+  }
+
+  /*-- description post --*/
+
+  .Posts-content-card-descriptionPost-box {
+
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .Posts-content {
+
+    padding: 3rem .5rem 0 .5rem;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  
+  .Posts-content {
+
+    padding: 4.7rem .5rem 0 .5rem;
+  }
+}
+
+@media screen and (min-width: 1500px){
+
+  .Posts-content {
+
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    gap: 5px;
+
+    box-sizing: border-box;
+  }
+
+  /*-- Card Post --*/
+
+  .Posts-content-card-Link {
+
+    width: 49%;
+  
+    margin-bottom: 1.5rem;
+  }
+}

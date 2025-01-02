@@ -1,0 +1,30 @@
+@media screen and (min-width: 1200px) {
+
+  .LoadingUsers {
+
+  }
+
+  .LoadingUsers_container {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .LoadingUsers_content {
+
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .LoadingUsers_loading {
+
+    width: 20%;
+  }
+}

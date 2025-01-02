@@ -1,0 +1,232 @@
+@media screen and (min-width: 358px) {
+
+  .NavBar {}
+
+  .NavBar-content {
+
+    background-color: #00000090;
+
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: 0;
+
+    z-index: 1000;
+
+    transition: all ease-in-out 1s;
+  }
+
+  .NavBar-contentStyleJS {
+
+    background-color: #000000;
+  }
+
+  .NavBar-box {
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: .8rem .4rem .4rem .4rem;
+
+    box-sizing: border-box;
+  }
+
+  .NavBar-box-image img {
+
+    width: 160px;
+
+    cursor: pointer;
+  }
+
+  .NavBar-box-icon {
+
+    background-color: rgb(237, 236, 236);
+
+    width: 35px;
+    height: 30px;
+
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .NavBar-icon {
+
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
+
+    cursor: pointer;
+  }
+
+  .NavBar-box-Link-desck {
+
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .NavBar-box {
+
+    padding: 1rem 1.2rem 1rem 1.2rem;
+  }
+
+  .NavBar-box-icon {
+
+    display: none;
+  }
+
+  /*-- Lincks --*/
+
+  .NavBar-box-Link-desck {
+    display: block;
+    width: 60%;
+
+    display: flex;
+
+  }
+
+  .NavBar-box-Link-desck-box-Search {
+
+    display: none;
+  }
+
+  .NavBar-box-Link-desck-container {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: end;
+  }
+
+  .NavBar-box-Link-desck-container a {
+
+    color: rgb(154, 152, 152);
+
+    font-size: 1.2rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+
+    margin: 0 80px 0 40px;
+  }
+
+  .NavBar-box-Link-desck-container a.active {
+
+    color: white;
+
+    font-size: 1.2rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+  }
+
+  .NavBar-box-Link-desck-container a:hover {
+
+    color: rgb(101, 168, 228);
+  }
+
+  /*-- Lateral menu --*/
+  .NavBar-LateralMenu {
+
+    display: none;
+  }
+}
+
+@media screen and (min-width: 990px) {
+
+  .NavBar-box-Link-desck {
+
+    width: 100%;
+  }
+
+  /*-- STYLE-SEARCH --*/
+
+  .NavBar-box-Link-desck-box-Search {
+
+    display: block;
+
+    width: 35%;
+  }
+
+  .NavBar-box-Link-desck-box-Search-container {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: end;
+  }
+
+  .NavBar-box-Link-desck-box-Search-container input {
+
+    background-color: #FFFFFF20;
+    color: white;
+
+    width: 60%;
+    max-width: 170px;
+
+    height: 17px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: .2rem .2rem .2rem .8rem;
+
+
+  }
+
+  .NavBar-box-Link-desck-box-Search-container input::placeholder {
+
+    background-image: url("../../../public/Background/search_01.png");
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: 13%;
+
+    color: white;
+
+    font-size: .9rem;
+    font-weight: 400;
+
+    padding: 0 0 0 1.5rem;
+  }
+
+  /*-- EDN-STYLE-SEARCH --*/
+
+  .NavBar-box-Link-desck-container {
+
+    width: 65%;
+    max-width: 620px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+
+  .NavBar-content {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .NavBar-box {
+
+    width: 100%;
+    max-width: 1100px;
+  }
+}

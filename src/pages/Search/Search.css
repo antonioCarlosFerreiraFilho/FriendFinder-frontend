@@ -1,0 +1,94 @@
+@media screen and (min-width: 358px) {
+
+  .Search_cardNavBarAuth-Posts {
+
+    width: 100%;
+  }
+
+  .Search_cardNavBarAuth {
+
+    display: none;
+  }
+
+  .Search_Posts-PostPhoto-UsersRecent {
+
+    width: 100%;
+  }
+
+  .Search_UsersRecent {
+
+    display: none;
+  }
+}
+
+@media screen and (min-width: 980px) {
+
+
+  .Search_cardNavBarAuth-Posts {
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Search_cardNavBarAuth {
+
+    display: block;
+    width: 30%;
+  }
+
+  .Search_Posts-PostPhoto-UsersRecent {
+
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .Search_cardNavBarAuth {
+
+    width: 25%;
+  }
+
+  .Search_Posts-PostPhoto-UsersRecent {
+
+    width: 55%;
+  }
+
+  .Search_UsersRecent {
+
+    display: block;
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+
+  .Search_container {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Search_content {
+
+    max-width: 2000px;
+  }
+
+  .Search_cardNavBarAuth {
+
+    width: 20%;
+  }
+
+  .Search_Posts-PostPhoto-UsersRecent {
+
+    width: 60%;
+    min-width: 900px
+  }
+
+  .Search_UsersRecent {
+
+    width: 20%;
+  }
+}
