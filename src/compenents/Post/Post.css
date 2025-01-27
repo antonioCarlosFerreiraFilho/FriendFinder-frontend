@@ -475,6 +475,249 @@
 
     margin: 1rem 0 1rem 0;
   }
+
+  /*-- BOX EDIT INFOS POST --*/
+
+  .Post-box-InfoUser-edit_info-post {
+
+    width: 100%;
+
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Post-box-InfoUser-edit_info-post-boxEvent {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Post-box-InfoUser-edit_info-post-boxEvent-button {
+
+    width: 200px;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid rgb(156, 153, 153);
+    margin-bottom: 1.3rem;
+
+    cursor: pointer;
+  }
+
+  .Post-box-InfoUser-edit_info-post-boxEvent-info p{
+
+    color: blueviolet;
+
+    font-size: 1.1rem;
+    font-family: "Noto Sans Tai Viet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .Post-box-InfoUser-edit_info-post-boxEvent-iconArrow {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iconArrowUp {
+
+    color: blueviolet;
+
+    font-size: 1.6rem;
+    font-family: "Noto Sans Tai Viet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-left: 1rem;
+    display: none;
+  }
+
+  .iconArrowUpJS {
+
+    display: block;
+  }
+
+  .iconArrowDown {
+
+    color: blueviolet;
+
+    font-size: 1.5rem;
+    font-family: "Noto Sans Tai Viet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 1rem;
+  }
+
+  .iconArrowDownJS {
+    display: none;
+  }
+
+  /* VIEWS FORM */
+
+  .Post-box-InfoUser-edit_info-post-content {
+
+    background-color: white;
+
+    width: 95%;
+    height: 0px;
+
+    display: flex;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    visibility: hidden;
+    transition: all ease-in-out 2s;
+    overflow: hidden;
+  }
+
+  .Post-box-InfoUser-edit_info-post-contentJS {
+
+    width: 95%;
+    height: 215px;
+
+    display: flex;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    visibility: visible;
+    transition: all ease-in-out 2s;
+    overflow: hidden;
+  }
+
+  .Post-box-InfoUser-edit_info-post-content-Visibile {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Post-box-InfoUser-edit_info-form {
+
+    width: 90%;
+    height: auto;
+  }
+
+  .Post-box-InfoUser-edit_info-form-BoxTitle {
+
+    width: 100%;
+ 
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+  }
+
+  .Post-box-InfoUser-edit_info-form-BoxTitle label{
+
+    color: rgb(110, 110, 220);
+
+    font-size: 1.1rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .Post-box-InfoUser-edit_info-form-BoxTitle input{
+
+    color: black;
+
+    width: 100%;
+    height: 30px;
+
+    margin: 0;
+    padding: .5rem;
+    box-sizing: border-box;
+
+    font-size: 1rem;
+
+    border: 1px solid rgb(180, 177, 177);
+  }
+
+  .Post-box-InfoUser-edit_info-form-BoxDescription {
+
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+  }
+
+  .Post-box-InfoUser-edit_info-form-BoxDescription label{
+
+    color: rgb(110, 110, 220);
+
+    font-size: 1.1rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .Post-box-InfoUser-edit_info-form-BoxDescription textarea {
+
+    color: black;
+
+    width: 100%;
+    height: 70px;
+
+    margin: 0;
+    padding: .5rem;
+    box-sizing: border-box;
+
+    font-size: 1rem;
+
+    border: 1px solid  rgb(180, 177, 177);
+  }
+
+  .Post-box-InfoUser_boxSubmit-container {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: .7rem;
+  }
+
+  .Post-box-InfoUser_boxSubmit-content {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Post-box-InfoUser_boxSubmit-content input{
+
+    background-color: rgb(86, 86, 202);
+    color: white;
+
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+
+    width: 100%;
+    height: 25px;
+    border: none;
+  }
+
 }
 
 @media screen and (min-width: 500px) {

@@ -53,7 +53,7 @@ const NavBarAuth = () => {
         <div className="NavBarAuth-content">
           <div className="NavBarAuth-content-shadow">
             <div className="NavBarAuth-content-imageUser">
-              {!user.imageProfile ? (
+              {user.imageProfile ? (
                 <img
                   src={`${uploads}/Users/${user.imageProfile}`}
                   alt={user.firstName}

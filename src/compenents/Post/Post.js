@@ -3,6 +3,8 @@ import "./Post.css";
 //react icons
 import { AiOutlineLike } from "react-icons/ai";
 import { AiOutlineDislike } from "react-icons/ai";
+import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowUp } from "react-icons/io";
 //react
 import { NavLink, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -20,7 +22,7 @@ import {
 } from "../../slices/postSlice";
 //components
 import MessageError from "../MessageError/MessageError";
-import LoadingPost from "../LoadingPostsUser/LoadingPostsUser"
+import LoadingPost from "../LoadingPostsUser/LoadingPostsUser";
 
 const Post = () => {
   //react
@@ -33,6 +35,27 @@ const Post = () => {
   const dispatch = useDispatch();
   const { post, error, loading, message } = useSelector((state) => state.post);
   const { user } = useSelector((state) => state.user);
+
+  function EventFormEdit() {
+    const buttonEvent = document.querySelector(
+      ".Post-box-InfoUser-edit_info-post-boxEvent-button"
+    );
+
+    const ArrowDown = document.querySelector(".iconArrowDown");
+    const ArrowUp = document.querySelector(".iconArrowUp");
+
+    const boxVisibile = document.querySelector(
+      ".Post-box-InfoUser-edit_info-post-content"
+    );
+
+    buttonEvent.addEventListener("click", () => {
+      ArrowDown.classList.toggle("iconArrowDownJS");
+      ArrowUp.classList.toggle("iconArrowUpJS");
+      boxVisibile.classList.toggle(
+        "Post-box-InfoUser-edit_info-post-contentJS"
+      );
+    });
+  }
 
   //submit Comment
   function HandleComment(e) {
@@ -94,6 +117,7 @@ const Post = () => {
     const Timer = setTimeout(() => {
       likePositiveTrue();
       likeNegativeFalse();
+      EventFormEdit();
     }, 1000);
     return () => clearTimeout(Timer);
   }, []);
@@ -147,6 +171,42 @@ const Post = () => {
               <div className="Post-box-InfoUser-DescriptionPost">
                 <div className="Post-box-InfoUser-DescriptionPost-box">
                   <p>{post.description}</p>
+                </div>
+              </div>
+              <div className="Post-box-InfoUser-edit_info-post">
+                <div className="Post-box-InfoUser-edit_info-post-boxEvent">
+                  <div className="Post-box-InfoUser-edit_info-post-boxEvent-button">
+                    <div className="Post-box-InfoUser-edit_info-post-boxEvent-info">
+                      <p>Editar Postagem</p>
+                    </div>
+                    <div className="Post-box-InfoUser-edit_info-post-boxEvent-iconArrow">
+                      <IoIosArrowDown className="iconArrowDown" />
+                      <IoIosArrowUp className="iconArrowUp" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="Post-box-InfoUser-edit_info-post-content">
+                  <div className="Post-box-InfoUser-edit_info-post-content-Visibile">
+                    <form className="Post-box-InfoUser-edit_info-form">
+                      {/* TITLE */}
+                      <div className="Post-box-InfoUser-edit_info-form-BoxTitle">
+                        <label>Titulo</label>
+                        <input type="text" />
+                      </div>
+                      {/* DESCRIPTIN */}
+                      <div className="Post-box-InfoUser-edit_info-form-BoxDescription">
+                        <label>Description</label>
+                        <textarea name="" id=""></textarea>
+                      </div>
+                      {/* SUBMIT */}
+                      <div className="Post-box-InfoUser_boxSubmit-container">
+                        <div className="Post-box-InfoUser_boxSubmit-content">
+                          <input type="submit" value="Salvar" />
+                        </div>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
